@@ -14,6 +14,10 @@ $ yarn install
 ```
 
 ```bash
+$ npm i -g @nestjs/cli
+```
+
+```bash
 $ docker compose up
 ```
 
