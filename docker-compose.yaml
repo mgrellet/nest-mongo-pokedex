@@ -1,0 +1,12 @@
+services:
+  db:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+      - MONGO_INITDB_DATABASE=pokedex    
+    restart: always
