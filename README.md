@@ -18,7 +18,9 @@ $ npm i -g @nestjs/cli
 ```
 
 ```bash
-$ docker compose up
+$ #docker compose up
+$ docker compose -f docker-compose.prod.yaml up --build
+$ docker compose -f docker-compose.prod.yaml up
 ```
 
 ## Compile and run the project
